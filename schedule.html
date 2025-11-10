@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>schedule</title>
+</head>
+
+<style>
+.container {height:100vh}
+.left {width:30%; height: 100%; float: left; padding: 15px}
+.right {width:70%; height: 100%; float: left; padding: 15px}
+.align{text-align:center}
+.pink{background-color:lightpink}
+.yellow{background-color:lightyellow}
+.blue{background-color:lightblue}
+* {box-sizing: border-box}
+ul{list-style: none}
+li{line-height: 3;font-size: 2em}
+html {scroll-behavior: smooth}
+body {margin: 0px}
+th {background-color:lightgrey}
+
+</style>
+
+
+<body>
+
+
+<div id="first" class="container">
+<div class="left">
+<ul>
+<li><a href="#first" style="background-color:lightgrey">xyz</a></li>
+<li><a href="#second" style="background-color:pink">xxxxxxx</a></li>
+<li><a href="#third" style="background-color:lightyellow;">yyyyyyy</a></li>
+<li><a href="#fourth" style="background-color:lightblue">zzzzzzz</a></li>
+</ul>
+</div>
+<div class="right" style="background-color: lightgrey">
+<h1 class="align">xyz</h1>
+<table border="1" style="text-align:center;margin:auto;background-color:white" width="700" >
+	<tr>
+		<th width="200"></th>
+		<th width="100">Monday</th><!--1 -->
+		<th width="100">Tuesday</th><!--2 -->
+		<th width="100">Wednesday</th><!--3 -->
+		<th width="100">Thursday</th><!--4 -->
+		<th width="100">Friday</th><!--5 -->
+	</tr>
+	<tr>
+		<th>07:00~08:00</th><!-- ⚝-->
+		<td></td><!--1⚝-->
+		<td></td><!--2⚝-->
+		<td></td><!--3⚝-->
+		<td></td><!--4⚝-->
+		<td></td><!--5⚝-->
+	</tr>
+	<tr>
+		<th>08:00~09:00</th><!-- 1-->
+		<td></td><!--11-->
+		<td></td><!--21-->
+		<td></td><!--31-->
+		<td></td><!--41-->
+		<td></td><!--51-->
+	</tr>
+	<tr>
+		<th>09:00~10:00</th><!-- 2-->
+		<td></td><!--12-->
+		<td></td><!--22-->
+		<td></td><!--32-->
+		<td></td><!--42-->
+		<td></td><!--52-->
+	</tr>
+	<tr>
+		<th>10:00~11:00</th><!-- 3-->
+		<td></td><!--13-->
+		<td></td><!--23-->
+		<td></td><!--33-->
+		<td></td><!--43-->
+		<td></td><!--53-->
+	</tr>
+	<tr>
+		<th>11:00~12:00</th><!-- 4-->
+		<td></td><!--14-->
+		<td></td><!--24-->
+		<td></td><!--34-->
+		<td></td><!--44-->
+		<td></td><!--54-->
+	</tr>
+	<tr>
+		<th>12:00~13:00</th><!-- 5-->
+		<td></td><!--15-->
+		<td></td><!--25-->
+		<td></td><!--35-->
+		<td></td><!--45-->
+		<td></td><!--55-->
+	</tr>
+	<tr>
+		<th>13:00~14:00</th><!-- 6-->
+		<td></td><!--16-->
+		<td></td><!--26-->
+		<td></td><!--36-->
+		<td></td><!--46-->
+		<td></td><!--56-->
+	</tr>
+	<tr>
+		<th>14:00~15:00</th><!-- 7-->
+		<td></td><!--17-->
+		<td></td><!--27-->
+		<td></td><!--37-->
+		<td></td><!--47-->
+		<td></td><!--57-->
+	</tr>
+	<tr>
+		<th>15:00~16:00</th><!-- 8-->
+		<td></td><!--18-->
+		<td></td><!--28-->
+		<td></td><!--38-->
+		<td></td><!--48-->
+		<td></td><!--58-->
+	</tr>
+	<tr>
+		<th>16:00~17:00</th><!-- 9-->
+		<td></td><!--19-->
+		<td></td><!--29-->
+		<td></td><!--39-->
+		<td></td><!--49-->
+		<td></td><!--59-->
+	</tr>
+	<tr>
+		<th>17:00~18:00</th><!-- A-->
+		<td></td><!--1A-->
+		<td></td><!--2A-->
+		<td></td><!--3A-->
+		<td></td><!--4A-->
+		<td></td><!--5A-->
+	</tr>
+	<tr>
+		<th>18:00~19:00</th><!-- B-->
+		<td></td><!--1B-->
+		<td></td><!--2B-->
+		<td></td><!--3B-->
+		<td></td><!--4B-->
+		<td></td><!--5B-->
+	</tr>
+	<tr>
+		<th>19:00~20:00</th><!-- C-->
+		<td></td><!--1C-->
+		<td></td><!--2C-->
+		<td></td><!--3C-->
+		<td></td><!--4C-->
+		<td></td><!--5C-->
+	</tr>
+	<tr>
+		<th>20:00~21:00</th><!-- D-->
+		<td></td><!--1D-->
+		<td></td><!--2D-->
+		<td></td><!--3D-->
+		<td></td><!--4D-->
+		<td></td><!--5D-->
+	</tr>
+	<tr>
+		<th>21:00~22:00</th><!-- E-->
+		<td></td><!--1E-->
+		<td></td><!--2E-->
+		<td></td><!--3E-->
+		<td></td><!--4E-->
+		<td></td><!--5E-->
+	</tr>
+</table>
+</div>
+</div>
+
+<div id="second" class="container">
+<div class="left">
+<ul>
+<li><a href="#first" style="background-color:lightgrey">xyz</a></li>
+<li><a href="#second" style="background-color:pink">xxxxxxx</a></li>
+<li><a href="#third" style="background-color:lightyellow;">yyyyyyy</a></li>
+<li><a href="#fourth" style="background-color:lightblue">zzzzzzz</a></li>
+</ul>
+</div>
+<div class="right" style="background-color: lightpink">
+<h1 class="align">xxxxxxx</h1>
+<table border="1" style="text-align:center;margin:auto;background-color:lightyellow" width="700" >
+	<tr>
+		<th width="200"></th>
+		<th width="100">Monday</th><!--1 -->
+		<th width="100">Tuesday</th><!--2 -->
+		<th width="100">Wednesday</th><!--3 -->
+		<th width="100">Thursday</th><!--4 -->
+		<th width="100">Friday</th><!--5 -->
+	</tr>
+	<tr>
+		<th>07:00~08:00</th><!-- ⚝-->
+		<td rowspan="3" class="blue">膳務部</td><!--1⚝-->
+		<td rowspan="1" class="blue">膳務部</td><!--2⚝-->
+		<td rowspan="2" class="blue">膳務部</td><!--3⚝-->
+		<td rowspan="2" class="blue">膳務部</td><!--4⚝-->
+		<td></td><!--5⚝-->
+	</tr>
+	<tr>
+		<th>08:00~09:00</th><!-- 1-->
+		<!--11-->
+		<td rowspan="2" class="blue">醫學與健康</td><!--21-->
+		<!--31-->
+		<!--41-->
+		<td rowspan="4" class="blue">系辦工讀</td><!--51-->
+	</tr>
+	<tr>
+		<th>09:00~10:00</th><!-- 2-->
+		<!--12-->
+		<!--22-->
+		<td rowspan="3" class="blue">多變量微積分</td><!--32-->
+		<td rowspan="3" class="blue">機率論</td><!--42-->
+		<!--52-->
+	</tr>
+	<tr>
+		<th>10:00~11:00</th><!-- 3-->
+		<td rowspan="2" class="blue">生活與生物科技</td><!--13-->
+		<td rowspan="2" class="blue">健康促進與身體調適</td><!--23-->
+		<!--33-->
+		<!--43-->
+		<!--53-->
+	</tr>
+	<tr>
+		<th>11:00~12:00</th><!-- 4-->
+		<!--14-->
+		<!--24-->
+		<!--34-->
+		<!--44-->
+		<!--54-->
+	</tr>
+	<tr>
+		<th>12:00~13:00</th><!-- 5-->
+		<td></td><!--15-->
+		<td></td><!--25-->
+		<td></td><!--35-->
+		<td></td><!--45-->
+		<td></td><!--55-->
+	</tr>
+	<tr>
+		<th>13:00~14:00</th><!-- 6-->
+		<td></td><!--16-->
+		<td rowspan="3" class="blue">網頁設計與開發</td><!--26-->
+		<td rowspan="3" class="blue">經濟學</td><!--36-->
+		<td rowspan="2" class="blue">課後協助輔導</td><!--46-->
+		<td rowspan="3" class="blue">線性代數</td><!--56-->
+	</tr>
+	<tr>
+		<th>14:00~15:00</th><!-- 7-->
+		<td></td><!--17-->
+		<!--27-->
+		<!--37-->
+		<!--47-->
+		<!--57-->
+	</tr>
+	<tr>
+		<th>15:00~16:00</th><!-- 8-->
+		<td></td><!--18-->
+		<!--28-->
+		<!--38-->
+		<td></td><!--48-->
+		<!--58-->
+	</tr>
+	<tr>
+		<th>16:00~17:00</th><!-- 9-->
+		<td></td><!--19-->
+		<td rowspan="3" class="blue">數學陪讀班</td><!--29-->
+		<td></td><!--39-->
+		<td rowspan="3" class="blue">數學陪讀班</td><!--49-->
+		<td rowspan="2" class="blue">系辦工讀</td><!--59-->
+	</tr>
+	<tr>
+		<th>17:00~18:00</th><!-- A-->
+		<td rowspan="3" class="blue">排球校隊</td><!--1A-->
+		<!--2A-->
+		<td></td><!--3A-->
+		<!--4A-->
+		<!--5A-->
+	</tr>
+	<tr>
+		<th>18:00~19:00</th><!-- B-->
+		<!--1B-->
+		<!--2B-->
+		<td rowspan="2" class="blue">機率論課輔</td><!--3B-->
+		<!--4B-->
+		<td></td><!--5B-->
+	</tr>
+	<tr>
+		<th>19:00~20:00</th><!-- C-->
+		<!--1C-->
+		<td rowspan="2" class="blue">多變量微積分課輔</td><!--2C-->
+		<!--3C-->
+		<td></td><!--4C-->
+		<td rowspan="2" class="blue">作文班</td><!--5C-->
+	</tr>
+	<tr>
+		<th>20:00~21:00</th><!-- D-->
+		<td></td><!--1D-->
+		<!--2D-->
+		<td></td><!--3D-->
+		<td></td><!--4D-->
+		<!--5D-->
+	</tr>
+	<tr>
+		<th>21:00~22:00</th><!-- E-->
+		<td></td><!--1E-->
+		<td></td><!--2E-->
+		<td></td><!--3E-->
+		<td></td><!--4E-->
+		<td></td><!--5E-->
+	</tr>
+</table>
+
+</div>
+</div>
+
+<div id="third" class="container">
+<div class="left">
+<ul>
+<li><a href="#first" style="background-color:lightgrey">xyz</a></li>
+<li><a href="#second" style="background-color:pink">xxxxxxx</a></li>
+<li><a href="#third" style="background-color:lightyellow;">yyyyyyy</a></li>
+<li><a href="#fourth" style="background-color:lightblue">zzzzzzz</a></li>
+</ul>
+</div>
+<div class="right" style="background-color: lightyellow">
+<h1 class="align">yyyyyyy</h1>
+<table border="1" style="text-align:center;margin:auto;background-color:lightblue" width="700" >
+	<tr>
+		<th width="200"></th>
+		<th width="100">Monday</th><!--1 -->
+		<th width="100">Tuesday</th><!--2 -->
+		<th width="100">Wednesday</th><!--3 -->
+		<th width="100">Thursday</th><!--4 -->
+		<th width="100">Friday</th><!--5 -->
+	</tr>
+	<tr>
+		<th>07:00~08:00</th><!-- ⚝-->
+		<td></td><!--1⚝-->
+		<td></td><!--2⚝-->
+		<td></td><!--3⚝-->
+		<td></td><!--4⚝-->
+		<td></td><!--5⚝-->
+	</tr>
+	<tr>
+		<th>08:00~09:00</th><!-- 1-->
+		<td></td><!--11-->
+		<td></td><!--21-->
+		<td></td><!--31-->
+		<td></td><!--41-->
+		<td></td><!--51-->
+	</tr>
+	<tr>
+		<th>09:00~10:00</th><!-- 2-->
+		<td></td><!--12-->
+		<td></td><!--22-->
+		<td rowspan="3" class="pink">多變量微積分</td><!--32-->
+		<td rowspan="3" class="pink">機率論</td><!--42-->
+		<td></td><!--52-->
+	</tr>
+	<tr>
+		<th>10:00~11:00</th><!-- 3-->
+		<td rowspan="2" class="pink">西方小說與電影</td><!--13-->
+		<td rowspan="2" class="pink">電子多媒體應用</td><!--23-->
+		<!--33-->
+		<!--43-->
+		<td rowspan="2" class="pink">通識教育講座</td><!--53-->
+	</tr>
+	<tr>
+		<th>11:00~12:00</th><!-- 4-->
+		<!--14-->
+		<!--24-->
+		<!--34-->
+		<!--44-->
+		<!--54-->
+	</tr>
+	<tr>
+		<th>12:00~13:00</th><!-- 5-->
+		<td></td><!--15-->
+		<td></td><!--25-->
+		<td></td><!--35-->
+		<td></td><!--45-->
+		<td></td><!--55-->
+	</tr>
+	<tr>
+		<th>13:00~14:00</th><!-- 6-->
+		<td></td><!--16-->
+		<td rowspan="3" class="pink">網頁設計與開發</td><!--26-->
+		<td rowspan="3" class="pink">經濟學</td><!--36-->
+		<td rowspan="3" class="pink">系辦工讀</td><!--46-->
+		<td rowspan="3" class="pink">線性代數</td><!--56-->
+	</tr>
+	<tr>
+		<th>14:00~15:00</th><!-- 7-->
+		<td></td><!--17-->
+		<!--27-->
+		<!--37-->
+		<!--47-->
+		<!--57-->
+	</tr>
+	<tr>
+		<th>15:00~16:00</th><!-- 8-->
+		<td></td><!--18-->
+		<!--28-->
+		<!--38-->
+		<!--48-->
+		<!--58-->
+	</tr>
+	<tr>
+		<th>16:00~17:00</th><!-- 9-->
+		<td></td><!--19-->
+		<td></td><!--29-->
+		<td></td><!--39-->
+		<td rowspan="2" class="pink">線性代數課輔</td><!--49-->
+		<td></td><!--59-->
+	</tr>
+	<tr>
+		<th>17:00~18:00</th><!-- A-->
+		<td></td><!--1A-->
+		<td></td><!--2A-->
+		<td></td><!--3A-->
+		<!--4A-->
+		<td></td><!--5A-->
+	</tr>
+	<tr>
+		<th>18:00~19:00</th><!-- B-->
+		<td></td><!--1B-->
+		<td></td><!--2B-->
+		<td rowspan="4" class="pink">數學陪讀班</td><!--3B-->
+		<td></td><!--4B-->
+		<td rowspan="4" class="pink">數學陪讀班</td><!--5B-->
+	</tr>
+	<tr>
+		<th>19:00~20:00</th><!-- C-->
+		<td></td><!--1C-->
+		<td rowspan="2" class="pink">多變量微積分課輔</td><!--2C-->
+		<!--3C-->
+		<td></td><!--4C-->
+		<!--5C-->
+	</tr>
+	<tr>
+		<th>20:00~21:00</th><!-- D-->
+		<td></td><!--1D-->
+		<!--2D-->
+		<!--3D-->
+		<td></td><!--4D-->
+		<!--5D-->
+	</tr>
+	<tr>
+		<th>21:00~22:00</th><!-- E-->
+		<td></td><!--1E-->
+		<td></td><!--2E-->
+		<!--3E-->
+		<td></td><!--4E-->
+		<!--5E-->
+	</tr>
+</table>
+</div>
+</div>
+
+<div id="fourth" class="container">
+<div class="left">
+<ul>
+<li><a href="#first" style="background-color:lightgrey">xyz</a></li>
+<li><a href="#second" style="background-color:pink">xxxxxxx</a></li>
+<li><a href="#third" style="background-color:lightyellow;">yyyyyyy</a></li>
+<li><a href="#fourth" style="background-color:lightblue">zzzzzzz</a></li>
+</ul>
+</div>
+<div class="right" style="background-color: lightblue">
+<h1 class="align">zzzzzzz</h1>
+<table border="1" style="text-align:center;margin:auto;background-color:lightpink" width="700" >
+	<tr>
+		<th width="200"></th>
+		<th width="100">Monday</th><!--1 -->
+		<th width="100">Tuesday</th><!--2 -->
+		<th width="100">Wednesday</th><!--3 -->
+		<th width="100">Thursday</th><!--4 -->
+		<th width="100">Friday</th><!--5 -->
+	</tr>
+	<tr>
+		<th>07:00~08:00</th><!-- ⚝-->
+		<td></td><!--1⚝-->
+		<td></td><!--2⚝-->
+		<td></td><!--3⚝-->
+		<td></td><!--4⚝-->
+		<td></td><!--5⚝-->
+	</tr>
+	<tr>
+		<th>08:00~09:00</th><!-- 1-->
+		<td></td><!--11-->
+		<td rowspan="2" class="yellow">婚姻與家庭</td><!--21-->
+		<td></td><!--31-->
+		<td></td><!--41-->
+		<td></td><!--51-->
+	</tr>
+	<tr>
+		<th>09:00~10:00</th><!-- 2-->
+		<td rowspan="3" class="yellow">系辦工讀</td><!--12-->
+		<!--22-->
+		<td rowspan="3" class="yellow">多變量微積分</td><!--32-->
+		<td rowspan="3" class="yellow">機率論</td><!--42-->
+		<td></td><!--52-->
+	</tr>
+	<tr>
+		<th>10:00~11:00</th><!-- 3-->
+		<!--13-->
+		<td rowspan="2" class="yellow">電子多媒體應用</td><!--23-->
+		<!--33-->
+		<!--43-->
+		<td></td><!--53-->
+	</tr>
+	<tr>
+		<th>11:00~12:00</th><!-- 4-->
+		<!--14-->
+		<!--24-->
+		<!--34-->
+		<!--44-->
+		<td></td><!--54-->
+	</tr>
+	<tr>
+		<th>12:00~13:00</th><!-- 5-->
+		<td></td><!--15-->
+		<td></td><!--25-->
+		<td></td><!--35-->
+		<td></td><!--45-->
+		<td></td><!--55-->
+	</tr>
+	<tr>
+		<th>13:00~14:00</th><!-- 6-->
+		<td></td><!--16-->
+		<td rowspan="3" class="yellow">網頁設計與開發</td><!--26-->
+		<td rowspan="3" class="yellow">經濟學</td><!--36-->
+		<td rowspan="7" class="yellow">數學陪讀班</td><!--46-->
+		<td rowspan="3" class="yellow">線性代數</td><!--56-->
+	</tr>
+	<tr>
+		<th>14:00~15:00</th><!-- 7-->
+		<td></td><!--17-->
+		<!--27-->
+		<!--37-->
+		<!--47-->
+		<!--57-->
+	</tr>
+	<tr>
+		<th>15:00~16:00</th><!-- 8-->
+		<td></td><!--18-->
+		<!--28-->
+		<!--38-->
+		<!--48-->
+		<!--58-->
+	</tr>
+	<tr>
+		<th>16:00~17:00</th><!-- 9-->
+		<td></td><!--19-->
+		<td></td><!--29-->
+		<td></td><!--39-->
+		<!--49-->
+		<td></td><!--59-->
+	</tr>
+	<tr>
+		<th>17:00~18:00</th><!-- A-->
+		<td></td><!--1A-->
+		<td></td><!--2A-->
+		<td></td><!--3A-->
+		<!--4A-->
+		<td></td><!--5A-->
+	</tr>
+	<tr>
+		<th>18:00~19:00</th><!-- B-->
+		<td></td><!--1B-->
+		<td></td><!--2B-->
+		<td rowspan="2" class="yellow">機率論課輔</td><!--3B-->
+		<!--4B-->
+		<td></td><!--5B-->
+	</tr>
+	<tr>
+		<th>19:00~20:00</th><!-- C-->
+		<td></td><!--1C-->
+		<td rowspan="2" class="yellow">多變量微積分課輔</td><!--2C-->
+		<!--3C-->
+		<!--4C-->
+		<td></td><!--5C-->
+	</tr>
+	<tr>
+		<th>20:00~21:00</th><!-- D-->
+		<td></td><!--1D-->
+		<!--2D-->
+		<td></td><!--3D-->
+		<td></td><!--4D-->
+		<td></td><!--5D-->
+	</tr>
+	<tr>
+		<th>21:00~22:00</th><!-- E-->
+		<td></td><!--1E-->
+		<td></td><!--2E-->
+		<td></td><!--3E-->
+		<td></td><!--4E-->
+		<td></td><!--5E-->
+	</tr>
+</table>
+</div>
+</div>
+
+
+</body>
+
+
+
+
+</html>
