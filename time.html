@@ -1,0 +1,149 @@
+<html>
+
+<head>
+<title>time</title>
+</head>
+
+<style>
+.container {height:100vh}
+.align{text-align:center}
+.pink{background-color:lightpink}
+.yellow{background-color:lightyellow}
+.blue{background-color:lightblue}
+th {background-color:lightgrey}
+</style>
+<div class="container" style="background-color:#e0d2ea">
+<h1 class="align">Timetable</h1>
+<table border="1" style="text-align:center;margin:auto;background-color:white" width="700" >
+	<tr>
+		<th width="200"></button>
+</th>
+		<th width="100">Monday</th><!--1 -->
+		<th width="100">Tuesday</th><!--2 -->
+		<th width="100">Wednesday</th><!--3 -->
+		<th width="100">Thursday</th><!--4 -->
+		<th width="100">Friday</th><!--5 -->
+	</tr>
+	<tr>
+		<th>07:00~08:00</th><!-- ⚝-->
+		<td id="mon07"><button type="button" onclick="document.querySelector('#mon07').innerHTML = '⭐'"></button></td><!--1⚝-->
+		<td id="tue07"><button type="button" onclick="document.querySelector('#tue07').innerHTML = '⭐'"></button></td><!--2⚝-->
+		<td id="wed07"><button type="button" onclick="document.querySelector('#wed07').innerHTML = '⭐'"></button></td><!--3⚝-->
+		<td id="thu07"><button type="button" onclick="document.querySelector('#thu07').innerHTML = '⭐'"></button></td><!--4⚝-->
+		<td id="fri07"><button type="button" onclick="document.querySelector('#fri07').innerHTML = '⭐'"></button></td><!--5⚝-->
+	</tr>
+	<tr>
+		<th>08:00~09:00</th><!-- 1-->
+		<td id="mon08"><button type="button" onclick="document.querySelector('#mon08').innerHTML = '⭐'"></button></td><!--11-->
+		<td id="tue08"><button type="button" onclick="document.querySelector('#tue08').innerHTML = '⭐'"></button></td><!--21-->
+		<td id="wed08"><button type="button" onclick="document.querySelector('#wed08').innerHTML = '⭐'"></button></td><!--31-->
+		<td id="thu08"><button type="button" onclick="document.querySelector('#thu08').innerHTML = '⭐'"></button></td><!--41-->
+		<td id="fri08"><button type="button" onclick="document.querySelector('#fri08').innerHTML = '⭐'"></button></td><!--51-->
+	</tr>
+	<tr>
+		<th>09:00~10:00</th><!-- 2-->
+		<td id="mon09"><button type="button" onclick="document.querySelector('#mon09').innerHTML = '⭐'"></button></td><!--12-->
+		<td id="tue09"><button type="button" onclick="document.querySelector('#tue09').innerHTML = '⭐'"></button></td><!--22-->
+		<td id="wed09"><button type="button" onclick="document.querySelector('#wed09').innerHTML = '⭐'"></button></td><!--32-->
+		<td id="thu09"><button type="button" onclick="document.querySelector('#thu09').innerHTML = '⭐'"></button></td><!--42-->
+		<td id="fri09"><button type="button" onclick="document.querySelector('#fri09').innerHTML = '⭐'"></button></td><!--52-->
+	</tr>
+	<tr>
+		<th>10:00~11:00</th><!-- 3-->
+		<td id="mon10"><button type="button" onclick="document.querySelector('#mon10').innerHTML = '⭐'"></button></td><!--13-->
+		<td id="tue10"><button type="button" onclick="document.querySelector('#tue10').innerHTML = '⭐'"></button></td><!--23-->
+		<td id="wed10"><button type="button" onclick="document.querySelector('#wed10').innerHTML = '⭐'"></button></td><!--33-->
+		<td id="thu10"><button type="button" onclick="document.querySelector('#thu10').innerHTML = '⭐'"></button></td><!--43-->
+		<td id="fri10"><button type="button" onclick="document.querySelector('#fri10').innerHTML = '⭐'"></button></td><!--53-->
+	</tr>
+	<tr>
+		<th>11:00~12:00</th><!-- 4-->
+		<td id="mon11"><button type="button" onclick="document.querySelector('#mon11').innerHTML = '⭐'"></button></td><!--14-->
+		<td id="tue11"><button type="button" onclick="document.querySelector('#tue11').innerHTML = '⭐'"></button></td><!--24-->
+		<td id="wed11"><button type="button" onclick="document.querySelector('#wed11').innerHTML = '⭐'"></button></td><!--34-->
+		<td id="thu11"><button type="button" onclick="document.querySelector('#thu11').innerHTML = '⭐'"></button></td><!--44-->
+		<td id="fri11"><button type="button" onclick="document.querySelector('#fri11').innerHTML = '⭐'"></button></td><!--54-->
+	</tr>
+	<tr>
+		<th>12:00~13:00</th><!-- 5-->
+		<td id="mon12"><button type="button" onclick="document.querySelector('#mon12').innerHTML = '⭐'"></button></td><!--15-->
+		<td id="tue12"><button type="button" onclick="document.querySelector('#tue12').innerHTML = '⭐'"></button></td><!--25-->
+		<td id="wed12"><button type="button" onclick="document.querySelector('#wed12').innerHTML = '⭐'"></button></td><!--35-->
+		<td id="thu12"><button type="button" onclick="document.querySelector('#thu12').innerHTML = '⭐'"></button></td><!--45-->
+		<td id="fri12"><button type="button" onclick="document.querySelector('#fri12').innerHTML = '⭐'"></button></td><!--55-->
+	</tr>
+	<tr>
+		<th>13:00~14:00</th><!-- 6-->
+		<td id="mon13"><button type="button" onclick="document.querySelector('#mon13').innerHTML = '⭐'"></button></td><!--16-->
+		<td id="tue13"><button type="button" onclick="document.querySelector('#tue13').innerHTML = '⭐'"></button></td><!--26-->
+		<td id="wed13"><button type="button" onclick="document.querySelector('#wed13').innerHTML = '⭐'"></button></td><!--36-->
+		<td id="thu13"><button type="button" onclick="document.querySelector('#thu13').innerHTML = '⭐'"></button></td><!--46-->
+		<td id="fri13"><button type="button" onclick="document.querySelector('#fri13').innerHTML = '⭐'"></button></td><!--56-->
+	</tr>
+	<tr>
+		<th>14:00~15:00</th><!-- 7-->
+		<td id="mon14"><button type="button" onclick="document.querySelector('#mon14').innerHTML = '⭐'"></button></td><!--17-->
+		<td id="tue14"><button type="button" onclick="document.querySelector('#tue14').innerHTML = '⭐'"></button></td><!--27-->
+		<td id="wed14"><button type="button" onclick="document.querySelector('#wed14').innerHTML = '⭐'"></button></td><!--37-->
+		<td id="thu14"><button type="button" onclick="document.querySelector('#thu14').innerHTML = '⭐'"></button></td><!--47-->
+		<td id="fri14"><button type="button" onclick="document.querySelector('#fri14').innerHTML = '⭐'"></button></td><!--57-->
+	</tr>
+	<tr>
+		<th>15:00~16:00</th><!-- 8-->
+		<td id="mon15"><button type="button" onclick="document.querySelector('#mon15').innerHTML = '⭐'"></button></td><!--18-->
+		<td id="tue15"><button type="button" onclick="document.querySelector('#tue15').innerHTML = '⭐'"></button></td><!--28-->
+		<td id="wed15"><button type="button" onclick="document.querySelector('#wed15').innerHTML = '⭐'"></button></td><!--38-->
+		<td id="thu15"><button type="button" onclick="document.querySelector('#thu15').innerHTML = '⭐'"></button></td><!--48-->
+		<td id="fri15"><button type="button" onclick="document.querySelector('#fri15').innerHTML = '⭐'"></button></td><!--58-->
+	</tr>
+	<tr>
+		<th>16:00~17:00</th><!-- 9-->
+		<td id="mon16"><button type="button" onclick="document.querySelector('#mon16').innerHTML = '⭐'"></button></td><!--19-->
+		<td id="tue16"><button type="button" onclick="document.querySelector('#tue16').innerHTML = '⭐'"></button></td><!--29-->
+		<td id="wed16"><button type="button" onclick="document.querySelector('#wed16').innerHTML = '⭐'"></button></td><!--39-->
+		<td id="thu16"><button type="button" onclick="document.querySelector('#thu16').innerHTML = '⭐'"></button></td><!--49-->
+		<td id="fri16"><button type="button" onclick="document.querySelector('#fri16').innerHTML = '⭐'"></button></td><!--59-->
+	</tr>
+	<tr>
+		<th>17:00~18:00</th><!-- A-->
+		<td id="mon17"><button type="button" onclick="document.querySelector('#mon17').innerHTML = '⭐'"></button></td><!--1A-->
+		<td id="tue17"><button type="button" onclick="document.querySelector('#tue17').innerHTML = '⭐'"></button></td><!--2A-->
+		<td id="wed17"><button type="button" onclick="document.querySelector('#wed17').innerHTML = '⭐'"></button></td><!--3A-->
+		<td id="thu17"><button type="button" onclick="document.querySelector('#thu17').innerHTML = '⭐'"></button></td><!--4A-->
+		<td id="fri17"><button type="button" onclick="document.querySelector('#fri17').innerHTML = '⭐'"></button></td><!--5A-->
+	</tr>
+	<tr>
+		<th>18:00~19:00</th><!-- B-->
+		<td id="mon18"><button type="button" onclick="document.querySelector('#mon18').innerHTML = '⭐'"></button></td><!--1B-->
+		<td id="tue18"><button type="button" onclick="document.querySelector('#tue18').innerHTML = '⭐'"></button></td><!--2B-->
+		<td id="wed18"><button type="button" onclick="document.querySelector('#wed18').innerHTML = '⭐'"></button></td><!--3B-->
+		<td id="thu18"><button type="button" onclick="document.querySelector('#thu18').innerHTML = '⭐'"></button></td><!--4B-->
+		<td id="fri18"><button type="button" onclick="document.querySelector('#fri18').innerHTML = '⭐'"></button></td><!--5B-->
+	</tr>
+	<tr>
+		<th>19:00~20:00</th><!-- C-->
+		<td id="mon19"><button type="button" onclick="document.querySelector('#mon19').innerHTML = '⭐'"></button></td><!--1C-->
+		<td id="tue19"><button type="button" onclick="document.querySelector('#tue19').innerHTML = '⭐'"></button></td><!--2C-->
+		<td id="wed19"><button type="button" onclick="document.querySelector('#wed19').innerHTML = '⭐'"></button></td><!--3C-->
+		<td id="thu19"><button type="button" onclick="document.querySelector('#thu19').innerHTML = '⭐'"></button></td><!--4C-->
+		<td id="fri19"><button type="button" onclick="document.querySelector('#fri19').innerHTML = '⭐'"></button></td><!--5C-->
+	</tr>
+	<tr>
+		<th>20:00~21:00</th><!-- D-->
+		<td id="mon20"><button type="button" onclick="document.querySelector('#mon20').innerHTML = '⭐'"></button></td><!--1D-->
+		<td id="tue20"><button type="button" onclick="document.querySelector('#tue20').innerHTML = '⭐'"></button></td><!--2D-->
+		<td id="wed20"><button type="button" onclick="document.querySelector('#wed20').innerHTML = '⭐'"></button></td><!--3D-->
+		<td id="thu20"><button type="button" onclick="document.querySelector('#thu20').innerHTML = '⭐'"></button></td><!--4D-->
+		<td id="fri20"><button type="button" onclick="document.querySelector('#fri20').innerHTML = '⭐'"></button></td><!--5D-->
+	</tr>
+	<tr>
+		<th>21:00~22:00</th><!-- E-->
+		<td id="mon21"><button type="button" onclick="document.querySelector('#mon21').innerHTML = '⭐'"></button></td><!--1E-->
+		<td id="tue21"><button type="button" onclick="document.querySelector('#tue21').innerHTML = '⭐'"></button></td><!--2E-->
+		<td id="wed21"><button type="button" onclick="document.querySelector('#wed21').innerHTML = '⭐'"></button></td><!--3E-->
+		<td id="thu21"><button type="button" onclick="document.querySelector('#thu21').innerHTML = '⭐'"></button></td><!--4E-->
+		<td id="fri21"><button type="button" onclick="document.querySelector('#fri21').innerHTML = '⭐'"></button></td><!--5E-->
+	</tr>
+</table>
+</div>
+</html>
