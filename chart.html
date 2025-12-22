@@ -1,0 +1,54 @@
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
+  google.charts.load("current", {packages:["timeline"]});
+  google.charts.setOnLoadCallback(drawChart);
+  function drawChart() {
+
+    var container = document.getElementById('chart');
+    var chart = new google.visualization.Timeline(container);
+    var dataTable = new google.visualization.DataTable();
+    dataTable.addColumn({ type: 'string', id: 'Week' });
+    dataTable.addColumn({ type: 'string', id: 'Thing' });
+    dataTable.addColumn({ type: 'string', id: 'style', role: 'style' });
+    dataTable.addColumn({ type: 'date', id: 'Start' });
+    dataTable.addColumn({ type: 'date', id: 'End' });
+    dataTable.addRows([
+      [ 'Monday', '膳務部', 'a27e7e',       new Date(0,0,0,7,0,0),  new Date(0,0,0,10,0,0) ],
+      [ 'Monday', '生活與生物科技', 'a27e7e',       new Date(0,0,0,10,0,0),  new Date(0,0,0,12,0,0) ],
+      [ 'Monday', '多變量微積分補救', 'a27e7e',       new Date(0,0,0,13,0,0),  new Date(0,0,0,15,0,0) ],
+      [ 'Monday', '排球校隊', 'a27e7e',       new Date(0,0,0,17,0,0),  new Date(0,0,0,22,0,0) ],
+      [ 'Tuesday', '膳務部', 'd8caaf',       new Date(0,0,0,7,0,0),  new Date(0,0,0,8,0,0) ],
+      [ 'Tuesday', '醫學與健康', 'd8caaf',       new Date(0,0,0,8,0,0),  new Date(0,0,0,10,0,0) ],
+      [ 'Tuesday', '健康促進與身體調適', 'd8caaf',       new Date(0,0,0,10,0,0),  new Date(0,0,0,12,0,0) ],
+      [ 'Tuesday', '網頁設計與開發', 'd8caaf',       new Date(0,0,0,13,0,0),  new Date(0,0,0,16,0,0) ],
+      [ 'Tuesday', '數學陪讀班', 'd8caaf',       new Date(0,0,0,16,0,0),  new Date(0,0,0,19,0,0) ],
+      [ 'Tuesday', '多變量微積分課輔', 'd8caaf',       new Date(0,0,0,19,0,0),  new Date(0,0,0,21,0,0) ],
+      [ 'Wednesday', '膳務部', '96a48b',       new Date(0,0,0,7,0,0),  new Date(0,0,0,9,0,0) ],
+      [ 'Wednesday', '多變量微積分', '96a48b',       new Date(0,0,0,9,0,0),  new Date(0,0,0,12,0,0) ],
+      [ 'Wednesday', '經濟學', '96a48b',       new Date(0,0,0,13,0,0),  new Date(0,0,0,16,0,0) ],
+      [ 'Wednesday', '機率論課輔', '96a48b',       new Date(0,0,0,18,30,0),  new Date(0,0,0,20,0,0) ],
+      [ 'Wednesday', '排球校隊', '96a48b',       new Date(0,0,0,20,0,0),  new Date(0,0,0,22,0,0) ],
+      [ 'Thursday', '膳務部', '9ca8b8',       new Date(0,0,0,7,0,0),  new Date(0,0,0,9,0,0) ],
+      [ 'Thursday', '機率論', '9ca8b8',       new Date(0,0,0,9,0,0),  new Date(0,0,0,12,0,0) ],
+      [ 'Thursday', '擦黑板', '9ca8b8',       new Date(0,0,0,12,0,0),  new Date(0,0,0,12,30,0) ],
+      [ 'Thursday', 'Frank課後輔導', '9ca8b8',       new Date(0,0,0,13,0,0),  new Date(0,0,0,15,0,0) ],
+      [ 'Thursday', '陪讀班', '9ca8b8',       new Date(0,0,0,16,0,0),  new Date(0,0,0,19,0,0) ],
+      [ 'Thursday', '排球校隊', '9ca8b8',       new Date(0,0,0,19,0,0),  new Date(0,0,0,22,0,0) ],
+      [ 'Friday', '系辦工讀', 'c9c0d3',       new Date(0,0,0,9,0,0),  new Date(0,0,0,12,0,0) ],
+      [ 'Friday', '擦黑板', 'c9c0d3',       new Date(0,0,0,12,0,0),  new Date(0,0,0,12,30,0) ],
+      [ 'Friday', '線性代數', 'c9c0d3',       new Date(0,0,0,13,0,0),  new Date(0,0,0,16,0,0) ],
+      [ 'Friday', '系辦關門班', 'c9c0d3',       new Date(0,0,0,16,0,0),  new Date(0,0,0,18,0,0) ],
+      [ 'Friday', '作文班', 'c9c0d3',       new Date(0,0,0,19,0,0),  new Date(0,0,0,21,0,0) ]]);
+
+    var options = {
+      timeline: { colorByRowLabel: true },
+      alternatingRowStyle: true
+    };
+
+    chart.draw(dataTable, options);
+  }
+
+</script>
+
+<div id="chart" style="height: 1000px;"></div>
