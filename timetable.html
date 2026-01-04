@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html>
+
+<title>Timetable</title>
+</head>
+
+<style>
+.container {height:100vh}
+.left {width:15%; height: 100%; float: left}
+.right {width:85%; height: 100%; float: left}
+.align{text-align:center}
+ul{list-style: none}
+li{line-height: 3;font-size: 2em}
+body {margin: 0px}
+th {background-color:lightgrey}
+</style>
+
+
+<body>
+
+<div id="first" class="container">
+<div class="left" style="background-color:#f0f0f0">
+<ul>
+<li><a href="#first" style="background-color:#c9c0d3">first</a></li>
+<li><a href="#second" style="background-color:#ead0d1">second</a></li>
+<li><a href="#third" style="background-color:#9ca8b8">third</a></li>
+<li><a href="#fourth" style="background-color:#b5c4b1">fourth</a></li>
+</ul>
+</div>
+<div class="right" style="background-color: #c9c0d3">
+<br>
+<h1 class="align">Timetable</h1>
+<table border="1" style="text-align:center;margin:auto;background-color:white" width="700" >
+	<tr>
+		<th width="200"></button></th>
+		<th colspan="2" width="100">Monday</th><!--1 -->
+		<th colspan="2" width="100">Tuesday</th><!--2 -->
+		<th colspan="2" width="100">Wednesday</th><!--3 -->
+		<th colspan="2" width="100">Thursday</th><!--4 -->
+		<th colspan="2" width="100">Friday</th><!--5 -->
+	</tr>
+	<tr>
+		<th>07:00~08:00</th><!-- ⚝-->
+		<td>⭐</td><!--x1⚝-->
+		<td></td><!--z1⚝-->
+		<td>⭐</td><!--x2⚝-->
+		<td></td><!--z2⚝-->
+		<td>⭐</td><!--x3⚝-->
+		<td></td><!--z3⚝-->
+		<td>⭐</td><!--x4⚝-->
+		<td></td><!--z4⚝-->
+		<td></td><!--x5⚝-->
+		<td></td><!--z5⚝-->
+	</tr>
+	<tr>
+		<th>08:00~09:00</th><!-- 1-->
+		<td>⭐</td><!--x11-->
+		<td>🌙</td><!--z11-->
+		<td>⭐</td><!--x21-->
+		<td>🌙</td><!--z21-->
+		<td>⭐</td><!--x31-->
+		<td></td><!--z31-->
+		<td>⭐</td><!--x41-->
+		<td></td><!--z41-->
+		<td>⭐</td><!--x51-->
+		<td></td><!--z51-->
+	</tr>
+	<tr>
+		<th>09:00~10:00</th><!-- 2-->
+		<td>⭐</td><!--x12-->
+		<td>🌙</td><!--z12-->
+		<td>⭐</td><!--x22-->
+		<td>🌙</td><!--z22-->
+		<td>⭐</td><!--x32-->
+		<td>🌙</td><!--z32-->
+		<td>⭐</td><!--x42-->
+		<td>🌙</td><!--z42-->
+		<td>⭐</td><!--x52-->
+		<td></td><!--z52-->
+	</tr>
+	<tr>
+		<th>10:00~11:00</th><!-- 3-->
+		<td>⭐</td><!--x13-->
+		<td>🌙</td><!--z13-->
+		<td>⭐</td><!--x23-->
+		<td>🌙</td><!--z23-->
+		<td>⭐</td><!--x33-->
+		<td>🌙</td><!--z33-->
+		<td>⭐</td><!--x43-->
+		<td>🌙</td><!--z43-->
+		<td>⭐</td><!--x53-->
+		<td></td><!--z53-->
+	</tr>
+	<tr>
+		<th>11:00~12:00</th><!-- 4-->
+		<td>⭐</td><!--x14-->
+		<td>🌙</td><!--z14-->
+		<td>⭐</td><!--x24-->
+		<td>🌙</td><!--z24-->
+		<td>⭐</td><!--x34-->
+		<td>🌙</td><!--z34-->
+		<td>⭐</td><!--x44-->
+		<td>🌙</td><!--z44-->
+		<td>⭐</td><!--x54-->
+		<td></td><!--z54-->
+	</tr>
+	</tr>
+	<tr>
+		<th>12:00~13:00</th><!-- 5-->
+		<td></td><!--x15-->
+		<td></td><!--z15-->
+		<td></td><!--x25-->
+		<td>🌙</td><!--z25-->
+		<td></td><!--x35-->
+		<td></td><!--z35-->
+		<td>⭐</td><!--x45-->
+		<td></td><!--z45-->
+		<td>⭐</td><!--x55-->
+		<td></td><!--z55-->
+	</tr>
+	</tr>
+	<tr>
+		<th>13:00~14:00</th><!-- 6-->
+		<td>⭐</td><!--x16-->
+		<td>🌙</td><!--z16-->
+		<td>⭐</td><!--x26-->
+		<td>🌙</td><!--z26-->
+		<td>⭐</td><!--x36-->
+		<td>🌙</td><!--z36-->
+		<td>⭐</td><!--x46-->
+		<td>🌙</td><!--z46-->
+		<td>⭐</td><!--x56-->
+		<td>🌙</td><!--z56-->
+	</tr>
+	<tr>
+		<th>14:00~15:00</th><!-- 7-->
+		<td>⭐</td><!--x17-->
+		<td></td><!--z17-->
+		<td>⭐</td><!--x27-->
+		<td>🌙</td><!--z27-->
+		<td>⭐</td><!--x37-->
+		<td>🌙</td><!--z37-->
+		<td>⭐</td><!--x47-->
+		<td>🌙</td><!--z47-->
+		<td>⭐</td><!--x57-->
+		<td>🌙</td><!--z57-->
+	</tr>
+	<tr>
+		<th>15:00~16:00</th><!-- 8-->
+		<td></td><!--x18-->
+		<td>🌙</td><!--z18-->
+		<td>⭐</td><!--x28-->
+		<td>🌙</td><!--z28-->
+		<td>⭐</td><!--x38-->
+		<td>🌙</td><!--z38-->
+		<td></td><!--x48-->
+		<td>🌙</td><!--z48-->
+		<td>⭐</td><!--x58-->
+		<td>🌙</td><!--z58-->
+	</tr>
+	<tr>
+		<th>16:00~17:00</th><!-- 9-->
+		<td></td><!--x19-->
+		<td>🌙</td><!--z19-->
+		<td>⭐</td><!--x29-->
+		<td>🌙</td><!--z29-->
+		<td></td><!--x39-->
+		<td>🌙</td><!--z39-->
+		<td>⭐</td><!--x49-->
+		<td>🌙</td><!--z49-->
+		<td>⭐</td><!--x59-->
+		<td>🌙</td><!--z59-->
+	</tr>
+	</tr>
+	<tr>
+		<th>17:00~18:00</th><!-- A-->
+		<td>⭐</td><!--x1A-->
+		<td></td><!--z1A-->
+		<td>⭐</td><!--x2A-->
+		<td></td><!--z2A-->
+		<td></td><!--x3A-->
+		<td></td><!--z3A-->
+		<td>⭐</td><!--x4A-->
+		<td>🌙</td><!--z4A-->
+		<td>⭐</td><!--x5A-->
+		<td></td><!--z5A-->
+	</tr>
+	<tr>
+		<th>18:00~19:00</th><!-- B-->
+		<td>⭐</td><!--x1B-->
+		<td></td><!--z1B-->
+		<td>⭐</td><!--x2B-->
+		<td></td><!--z2B-->
+		<td>⭐</td><!--x3B-->
+		<td>🌙</td><!--z3B-->
+		<td>⭐</td><!--x4B-->
+		<td>🌙</td><!--z4B-->
+		<td></td><!--x5B-->
+		<td></td><!--z5B-->
+	</tr>
+	<tr>
+		<th>19:00~20:00</th><!-- C-->
+		<td>⭐</td><!--x1C-->
+		<td></td><!--z1C-->
+		<td>⭐</td><!--x2C-->
+		<td>🌙</td><!--z2C-->
+		<td>⭐</td><!--x3C-->
+		<td>🌙</td><!--z3C-->
+		<td>⭐</td><!--x4C-->
+		<td>🌙</td><!--z4C-->
+		<td>⭐</td><!--x5C-->
+		<td></td><!--z5C-->
+	</tr>
+	<tr>
+		<th>20:00~21:00</th><!-- D-->
+		<td>⭐</td><!--x1D-->
+		<td></td><!--z1D-->
+		<td>⭐</td><!--x2D-->
+		<td>🌙</td><!--z2D-->
+		<td>⭐</td><!--x3D-->
+		<td></td><!--z3D-->
+		<td>⭐</td><!--x4D-->
+		<td></td><!--z4D-->
+		<td>⭐</td><!--x5D-->
+		<td></td><!--z5D-->
+	</tr>
+	<tr>
+		<th>21:00~22:00</th><!-- E-->
+		<td>⭐</td><!--x1E-->
+		<td></td><!--z1E-->
+		<td></td><!--x2E-->
+		<td></td><!--z2E-->
+		<td>⭐</td><!--x3E-->
+		<td></td><!--z3E-->
+		<td>⭐</td><!--x4E-->
+		<td></td><!--z4E-->
+		<td></td><!--x5E-->
+		<td></td><!--z5E-->
+	</tr>
+	<tr>
+		<th>22:00~23:00</th><!-- F-->
+		<td></td><!--x1F-->
+		<td>🌙</td><!--z1F-->
+		<td></td><!--x2F-->
+		<td>🌙</td><!--z2F-->
+		<td></td><!--x3F-->
+		<td>🌙</td><!--z3F-->
+		<td></td><!--x4F-->
+		<td>🌙</td><!--z4F-->
+		<td></td><!--x5F-->
+		<td>🌙</td><!--z5F-->
+	</tr>
+	<tr>
+		<th>23:00~00:00</th><!-- G-->
+		<td></td><!--x1G-->
+		<td>🌙</td><!--z1G-->
+		<td></td><!--x2G-->
+		<td>🌙</td><!--z2G-->
+		<td></td><!--x3G-->
+		<td>🌙</td><!--z3G-->
+		<td></td><!--x4G-->
+		<td>🌙</td><!--z4G-->
+		<td></td><!--x5G-->
+		<td>🌙</td><!--z5G-->
+	</tr>
+</table>
+</div>
+</div>
+
+<div id="second" class="container">
+<div class="left" style="background-color:#f0f0f0">
+<ul>
+<li><a href="#first" style="background-color:#c9c0d3">first</a></li>
+<li><a href="#second" style="background-color:#ead0d1">second</a></li>
+<li><a href="#third" style="background-color:#9ca8b8">third</a></li>
+<li><a href="#fourth" style="background-color:#b5c4b1">fourth</a></li>
+</ul>
+</div>
+<div class="right" style="background-color:#ead0d1">
+<br>
+<h1 class="align">Timetablee1</h1>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+  google.charts.load("current", {packages:["timeline"]});
+  google.charts.setOnLoadCallback(drawChart);
+  function drawChart() {
+    var container = document.getElementById('chart1');
+    var chart = new google.visualization.Timeline(container);
+    var dataTable = new google.visualization.DataTable();
+    dataTable.addColumn({ type: 'string', id: 'Week' });
+    dataTable.addColumn({ type: 'string', id: 'Thing' });
+    dataTable.addColumn({ type: 'string', id: 'style', role: 'style' });
+    dataTable.addColumn({ type: 'date', id: 'Start' });
+    dataTable.addColumn({ type: 'date', id: 'End' });
+    dataTable.addRows([
+      [ 'Monday', '膳務部', 'a27e7e',       new Date(0,0,0,7,0,0),  new Date(0,0,0,10,0,0) ],
+      [ 'Monday', '生活與生物科技', 'a27e7e',       new Date(0,0,0,10,0,0),  new Date(0,0,0,12,0,0) ],
+      [ 'Monday', '多變量微積分補救', 'a27e7e',       new Date(0,0,0,13,0,0),  new Date(0,0,0,15,0,0) ],
+      [ 'Monday', '排球校隊', 'a27e7e',       new Date(0,0,0,17,0,0),  new Date(0,0,0,22,0,0) ],
+
+      [ 'Tuesday', '膳務部', 'd8caaf',       new Date(0,0,0,7,0,0),  new Date(0,0,0,8,0,0) ],
+      [ 'Tuesday', '醫學與健康', 'd8caaf',       new Date(0,0,0,8,0,0),  new Date(0,0,0,10,0,0) ],
+      [ 'Tuesday', '健康促進與身體調適', 'd8caaf',       new Date(0,0,0,10,0,0),  new Date(0,0,0,12,0,0) ],
+      [ 'Tuesday', '網頁設計與開發', 'd8caaf',       new Date(0,0,0,13,0,0),  new Date(0,0,0,16,0,0) ],
+      [ 'Tuesday', '數學陪讀班', 'd8caaf',       new Date(0,0,0,16,0,0),  new Date(0,0,0,19,0,0) ],
+      [ 'Tuesday', '多變量微積分課輔', 'd8caaf',       new Date(0,0,0,19,0,0),  new Date(0,0,0,21,0,0) ],
+
+      [ 'Wednesday', '膳務部', '96a48b',       new Date(0,0,0,7,0,0),  new Date(0,0,0,9,0,0) ],
+      [ 'Wednesday', '多變量微積分', '96a48b',       new Date(0,0,0,9,0,0),  new Date(0,0,0,12,0,0) ],
+      [ 'Wednesday', '經濟學', '96a48b',       new Date(0,0,0,13,0,0),  new Date(0,0,0,16,0,0) ],
+      [ 'Wednesday', '機率論課輔', '96a48b',       new Date(0,0,0,18,30,0),  new Date(0,0,0,20,0,0) ],
+      [ 'Wednesday', '排球校隊', '96a48b',       new Date(0,0,0,20,0,0),  new Date(0,0,0,22,0,0) ],
+
+      [ 'Thursday', '膳務部', '9ca8b8',       new Date(0,0,0,7,0,0),  new Date(0,0,0,9,0,0) ],
+      [ 'Thursday', '機率論', '9ca8b8',       new Date(0,0,0,9,0,0),  new Date(0,0,0,12,0,0) ],
+      [ 'Thursday', '擦黑板', '9ca8b8',       new Date(0,0,0,12,0,0),  new Date(0,0,0,12,30,0) ],
+      [ 'Thursday', 'Frank課後輔導', '9ca8b8',       new Date(0,0,0,13,0,0),  new Date(0,0,0,15,0,0) ],
+      [ 'Thursday', '陪讀班', '9ca8b8',       new Date(0,0,0,16,0,0),  new Date(0,0,0,19,0,0) ],
+      [ 'Thursday', '排球校隊', '9ca8b8',       new Date(0,0,0,19,0,0),  new Date(0,0,0,22,0,0) ],
+
+      [ 'Friday', '擦黑板', 'c9c0d3',       new Date(0,0,0,8,30,0),  new Date(0,0,0,9,0,0) ],
+      [ 'Friday', '系辦工讀', 'c9c0d3',       new Date(0,0,0,9,0,0),  new Date(0,0,0,12,0,0) ],
+      [ 'Friday', '擦黑板', 'c9c0d3',       new Date(0,0,0,12,0,0),  new Date(0,0,0,12,30,0) ],
+      [ 'Friday', '線性代數', 'c9c0d3',       new Date(0,0,0,13,0,0),  new Date(0,0,0,16,0,0) ],
+      [ 'Friday', '系辦關門班', 'c9c0d3',       new Date(0,0,0,16,0,0),  new Date(0,0,0,18,0,0) ],
+      [ 'Friday', '作文班', 'c9c0d3',       new Date(0,0,0,19,0,0),  new Date(0,0,0,21,0,0) ]]);
+    var options = {
+      timeline: { colorByRowLabel: true },
+      alternatingRowStyle: true
+    };
+    chart.draw(dataTable, options);
+  }
+</script>
+<div id="chart1" style="height:37vh"></div>
+<h1 class="align">Timetablee2</h1>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+  google.charts.load("current", {packages:["timeline"]});
+  google.charts.setOnLoadCallback(drawChart);
+  function drawChart() {
+    var container = document.getElementById('chart2');
+    var chart = new google.visualization.Timeline(container);
+    var dataTable = new google.visualization.DataTable();
+    dataTable.addColumn({ type: 'string', id: 'Week' });
+    dataTable.addColumn({ type: 'string', id: 'Thing' });
+    dataTable.addColumn({ type: 'string', id: 'style', role: 'style' });
+    dataTable.addColumn({ type: 'date', id: 'Start' });
+    dataTable.addColumn({ type: 'date', id: 'End' });
+    dataTable.addRows([
+      [ 'Monday', '開門班', 'a27e7e',       new Date(0,0,0,8,30,0),  new Date(0,0,0,9,0,0) ],
+      [ 'Monday', '系辦工讀', 'a27e7e',       new Date(0,0,0,9,0,0),  new Date(0,0,0,12,0,0) ],
+      [ 'Monday', '會計-追帳', 'a27e7e',       new Date(0,0,0,13,30,0),  new Date(0,0,0,14,0,0) ],
+      [ 'Monday', '會計-查帳', 'a27e7e',       new Date(0,0,0,15,0,0),  new Date(0,0,0,17,0,0) ],
+      [ 'Monday', '會計-查優質服務', 'a27e7e',       new Date(0,0,0,22,0,0),  new Date(0,0,0,24,0,0) ],
+
+      [ 'Tuesday', '婚姻與家庭', 'd8caaf',       new Date(0,0,0,8,0,0),  new Date(0,0,0,10,0,0) ],
+      [ 'Tuesday', '電子多媒體與應用', 'd8caaf',       new Date(0,0,0,10,0,0),  new Date(0,0,0,12,0,0) ],
+      [ 'Tuesday', '擦黑板', 'd8caaf',       new Date(0,0,0,12,0,0),  new Date(0,0,0,12,30,0) ],
+      [ 'Tuesday', '網頁設計與開發', 'd8caaf',       new Date(0,0,0,13,0,0),  new Date(0,0,0,16,0,0) ],
+      [ 'Tuesday', '會計-查帳', 'd8caaf',       new Date(0,0,0,16,0,0),  new Date(0,0,0,17,0,0) ],
+      [ 'Tuesday', '多變量微積分課輔', 'd8caaf',       new Date(0,0,0,19,0,0),  new Date(0,0,0,21,0,0) ],
+      [ 'Tuesday', '會計-查優質服務', 'd8caaf',       new Date(0,0,0,22,0,0),  new Date(0,0,0,24,0,0) ],
+
+      [ 'Wednesday', '多變量微積分', '96a48b',       new Date(0,0,0,9,0,0),  new Date(0,0,0,12,0,0) ],
+      [ 'Wednesday', '經濟學', '96a48b',       new Date(0,0,0,13,0,0),  new Date(0,0,0,16,0,0) ],
+      [ 'Wednesday', '會計-查帳', '96a48b',       new Date(0,0,0,16,0,0),  new Date(0,0,0,17,0,0) ],
+      [ 'Wednesday', '機率論課輔', '96a48b',       new Date(0,0,0,18,30,0),  new Date(0,0,0,20,0,0) ],
+      [ 'Wednesday', '會計-查優質服務', '96a48b',       new Date(0,0,0,22,0,0),  new Date(0,0,0,24,0,0) ],
+
+      [ 'Thursday', '機率論', '9ca8b8',       new Date(0,0,0,9,0,0),  new Date(0,0,0,12,0,0) ],
+      [ 'Thursday', '陪讀班', '9ca8b8',       new Date(0,0,0,12,30,0),  new Date(0,0,0,19,30,0) ], 
+      [ 'Thursday', '會計-查優質服務', '9ca8b8',       new Date(0,0,0,22,0,0),  new Date(0,0,0,24,0,0) ],
+
+      [ 'Friday', '線性代數', 'c9c0d3',       new Date(0,0,0,13,0,0),  new Date(0,0,0,16,0,0) ],
+      [ 'Friday', '會計-查帳', 'c9c0d3',       new Date(0,0,0,16,0,0),  new Date(0,0,0,17,0,0) ],
+      [ 'Friday', '會計-查優質服務', 'c9c0d3',       new Date(0,0,0,22,0,0),  new Date(0,0,0,24,0,0) ]]);
+    var options = {
+      timeline: { colorByRowLabel: true },
+      alternatingRowStyle: true
+    };
+    chart.draw(dataTable, options);
+  }
+</script>
+<div id="chart2" style="height:37vh"></div>
+</div>
+</div>
+
+<div id="third" class="container">
+<div class="left" style="background-color:#f0f0f0">
+<ul>
+<li><a href="#first" style="background-color:#c9c0d3">first</a></li>
+<li><a href="#second" style="background-color:#ead0d1">second</a></li>
+<li><a href="#third" style="background-color:#9ca8b8">third</a></li>
+<li><a href="#fourth" style="background-color:#b5c4b1">fourth</a></li>
+</ul>
+</div>
+<div class="right" style="background-color:#9ca8b8">
+<br>
+<h1 class="align">Timetableee1</h1>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<div id="chart3"></div>
+<script>
+google.charts.load('current', {packages: ['corechart', 'bar']});
+google.charts.setOnLoadCallback(drawChart);
+function drawChart() {
+var data = new google.visualization.arrayToDataTable([
+['Week', 'Work', 'Class', 'Other'],
+['Mon', 3, 9, 12], ['Tue', 4, 9, 11], ['Wed', 2, 9.5, 12.5], ['Thu', 7.5, 6, 10.5], ['Fri', 6, 5, 13]
+]);
+var options = {
+title: 'Weekly time distribution',
+hAxis: { title: 'week'},
+vAxis: {title: 'hours'}
+};
+var chart = new google.visualization.ColumnChart(document.getElementById('chart3'));
+chart.draw(data, options);
+}
+</script>
+<br><br>
+<h1 class="align">Timetableee2</h1>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<div id="chart4"></div>
+<script>
+google.charts.load('current', {packages: ['corechart', 'bar']});
+google.charts.setOnLoadCallback(drawChart);
+function drawChart() {
+var data = new google.visualization.arrayToDataTable([
+['Week', 'Work', 'Class', 'Other'],
+['Mon', 8, 0, 16], ['Tue', 3.5, 9, 11.5], ['Wed', 3, 7.5, 13.5], ['Thu', 9, 3, 12], ['Fri', 3, 3, 18]
+]);
+var options = {
+title: 'Weekly time distribution',
+hAxis: { title: 'week'},
+vAxis: {title: 'hours'}
+};
+var chart = new google.visualization.ColumnChart(document.getElementById('chart4'));
+chart.draw(data, options);
+}
+</script>
+</div>
+</div>
+
+<div id="fourth" class="container">
+<div class="left" style="background-color:#f0f0f0">
+<ul>
+<li><a href="#first" style="background-color:#c9c0d3">first</a></li>
+<li><a href="#second" style="background-color:#ead0d1">second</a></li>
+<li><a href="#third" style="background-color:#9ca8b8">third</a></li>
+<li><a href="#fourth" style="background-color:#b5c4b1">fourth</a></li>
+</ul>
+</div>
+<div class="right" style="background-color:#b5c4b1">
+<br>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+
+
+<table>
+
+<tr>
+<td><h1 class="align">Timetableeee1</h1>
+</td>
+<td><h1 class="align">Timetableeee2</h1>
+</td>
+</tr>
+
+<tr>
+<td>
+<div id="piechart1" style="width: 640px; height: 500px;"></div>
+<script>
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+function drawChart(){
+var data = google.visualization.arrayToDataTable([
+['Task', 'Hours'],
+['Work', 22.5], ['Class', 38.5], ['Other', 59]
+]);
+var options = {
+title: '⭐',
+};
+var chart = new google.visualization.PieChart(document.getElementById('piechart1'));
+chart.draw(data, options);
+}
+</script>
+</td>
+<td>
+<div id="piechart2" style="width: 640px; height: 500px;"></div>
+<script>
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+function drawChart(){
+var data = google.visualization.arrayToDataTable([
+['Task', 'Hours'],
+['Work', 26.5], ['Class', 22.5], ['Other', 71]
+]);
+var options = {
+title: '🌙',
+};
+var chart = new google.visualization.PieChart(document.getElementById('piechart2'));
+chart.draw(data, options);
+}
+</script>
+</td>
+</tr>
+</table>
+</div>
+</div>
+
+</body>
+
+
+
+
+
+</html>
