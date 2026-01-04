@@ -293,10 +293,10 @@ th {background-color:lightgrey}
     dataTable.addColumn({ type: 'date', id: 'Start' });
     dataTable.addColumn({ type: 'date', id: 'End' });
     dataTable.addRows([
-      [ 'Monday', '膳務部', 'a27e7e',       new Date(0,0,0,7,0,0),  new Date(0,0,0,10,0,0) ],
-      [ 'Monday', '生活與生物科技', 'a27e7e',       new Date(0,0,0,10,0,0),  new Date(0,0,0,12,0,0) ],
-      [ 'Monday', '多變量微積分補救', 'a27e7e',       new Date(0,0,0,13,0,0),  new Date(0,0,0,15,0,0) ],
-      [ 'Monday', '排球校隊', 'a27e7e',       new Date(0,0,0,17,0,0),  new Date(0,0,0,22,0,0) ],
+      [ 'Monday', '膳務部', 'c09d9b',       new Date(0,0,0,7,0,0),  new Date(0,0,0,10,0,0) ],
+      [ 'Monday', '生活與生物科技', 'c09d9b',       new Date(0,0,0,10,0,0),  new Date(0,0,0,12,0,0) ],
+      [ 'Monday', '多變量微積分補救', 'c09d9b',       new Date(0,0,0,13,0,0),  new Date(0,0,0,15,0,0) ],
+      [ 'Monday', '排球校隊', 'c09d9b',       new Date(0,0,0,17,0,0),  new Date(0,0,0,22,0,0) ],
 
       [ 'Tuesday', '膳務部', 'd8caaf',       new Date(0,0,0,7,0,0),  new Date(0,0,0,8,0,0) ],
       [ 'Tuesday', '醫學與健康', 'd8caaf',       new Date(0,0,0,8,0,0),  new Date(0,0,0,10,0,0) ],
@@ -346,11 +346,11 @@ th {background-color:lightgrey}
     dataTable.addColumn({ type: 'date', id: 'Start' });
     dataTable.addColumn({ type: 'date', id: 'End' });
     dataTable.addRows([
-      [ 'Monday', '開門班', 'a27e7e',       new Date(0,0,0,8,30,0),  new Date(0,0,0,9,0,0) ],
-      [ 'Monday', '系辦工讀', 'a27e7e',       new Date(0,0,0,9,0,0),  new Date(0,0,0,12,0,0) ],
-      [ 'Monday', '會計-追帳', 'a27e7e',       new Date(0,0,0,13,30,0),  new Date(0,0,0,14,0,0) ],
-      [ 'Monday', '會計-查帳', 'a27e7e',       new Date(0,0,0,15,0,0),  new Date(0,0,0,17,0,0) ],
-      [ 'Monday', '會計-查優質服務', 'a27e7e',       new Date(0,0,0,22,0,0),  new Date(0,0,0,24,0,0) ],
+      [ 'Monday', '開門班', 'c09d9b',       new Date(0,0,0,8,30,0),  new Date(0,0,0,9,0,0) ],
+      [ 'Monday', '系辦工讀', 'c09d9b',       new Date(0,0,0,9,0,0),  new Date(0,0,0,12,0,0) ],
+      [ 'Monday', '會計-追帳', 'c09d9b',       new Date(0,0,0,13,30,0),  new Date(0,0,0,14,0,0) ],
+      [ 'Monday', '會計-查帳', 'c09d9b',       new Date(0,0,0,15,0,0),  new Date(0,0,0,17,0,0) ],
+      [ 'Monday', '會計-查優質服務', 'c09d9b',       new Date(0,0,0,22,0,0),  new Date(0,0,0,24,0,0) ],
 
       [ 'Tuesday', '婚姻與家庭', 'd8caaf',       new Date(0,0,0,8,0,0),  new Date(0,0,0,10,0,0) ],
       [ 'Tuesday', '電子多媒體與應用', 'd8caaf',       new Date(0,0,0,10,0,0),  new Date(0,0,0,12,0,0) ],
@@ -374,7 +374,6 @@ th {background-color:lightgrey}
       [ 'Friday', '會計-查帳', 'c9c0d3',       new Date(0,0,0,16,0,0),  new Date(0,0,0,17,0,0) ],
       [ 'Friday', '會計-查優質服務', 'c9c0d3',       new Date(0,0,0,22,0,0),  new Date(0,0,0,24,0,0) ]]);
     var options = {
-      timeline: { colorByRowLabel: true },
       alternatingRowStyle: true
     };
     chart.draw(dataTable, options);
@@ -410,7 +409,8 @@ var data = new google.visualization.arrayToDataTable([
 var options = {
 title: 'Weekly time distribution',
 hAxis: { title: 'week'},
-vAxis: {title: 'hours'}
+vAxis: {title: 'hours'},
+colors: ['c09d9b', 'd8caaf', '9ca8b8']
 };
 var chart = new google.visualization.ColumnChart(document.getElementById('chart3'));
 chart.draw(data, options);
@@ -432,7 +432,8 @@ var data = new google.visualization.arrayToDataTable([
 var options = {
 title: 'Weekly time distribution',
 hAxis: { title: 'week'},
-vAxis: {title: 'hours'}
+vAxis: {title: 'hours'},
+colors: ['c09d9b', 'd8caaf', '9ca8b8']
 };
 var chart = new google.visualization.ColumnChart(document.getElementById('chart4'));
 chart.draw(data, options);
@@ -479,6 +480,7 @@ var data = google.visualization.arrayToDataTable([
 ]);
 var options = {
 title: '⭐',
+colors: ['c09d9b', 'd8caaf', '9ca8b8']
 };
 var chart = new google.visualization.PieChart(document.getElementById('piechart1'));
 chart.draw(data, options);
@@ -497,6 +499,7 @@ var data = google.visualization.arrayToDataTable([
 ]);
 var options = {
 title: '🌙',
+colors: ['c09d9b', 'd8caaf', '9ca8b8']
 };
 var chart = new google.visualization.PieChart(document.getElementById('piechart2'));
 chart.draw(data, options);
